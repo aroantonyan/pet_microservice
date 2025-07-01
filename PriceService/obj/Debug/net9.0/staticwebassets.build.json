@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "5EhU5oMK7f8cfwzBIdDp++SVSUIWw16t9ZlfxdEpKqQ=",
+  "Source": "PriceService",
+  "BasePath": "_content/PriceService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

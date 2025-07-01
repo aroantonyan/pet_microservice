@@ -1,0 +1,2 @@
+obj/Release/net9.0/Price.cs \
+obj/Release/net9.0/PriceGrpc.cs: ../PriceService/Protos/price.proto
