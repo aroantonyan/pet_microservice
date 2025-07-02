@@ -1,11 +1,14 @@
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using PriceContracts;
+using ProductService;
 using ProductService.Data;
 using ProductService.Interfaces;
 using ProductService.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddMediatR(typeof(Program));
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddHttpClient<LogSenderService>((provider, client) =>
@@ -41,7 +44,5 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapControllers();
-
-
 
 app.Run();

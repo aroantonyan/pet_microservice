@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lZorMWyTPe0=",
+  "dgSpecHash": "Pw9n00VEF68=",
   "success": true,
   "projectFilePath": "/Users/test/Desktop/vahe_task/vahe_task/ProductService/ProductService.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,9 @@
     "/Users/test/.nuget/packages/grpc.net.common/2.71.0/grpc.net.common.2.71.0.nupkg.sha512",
     "/Users/test/.nuget/packages/grpc.tools/2.72.0/grpc.tools.2.72.0.nupkg.sha512",
     "/Users/test/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/test/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/Users/test/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/test/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/test/.nuget/packages/microsoft.aspnetcore.cryptography.internal/9.0.6/microsoft.aspnetcore.cryptography.internal.9.0.6.nupkg.sha512",
     "/Users/test/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/9.0.6/microsoft.aspnetcore.cryptography.keyderivation.9.0.6.nupkg.sha512",
     "/Users/test/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/9.0.6/microsoft.aspnetcore.identity.entityframeworkcore.9.0.6.nupkg.sha512",

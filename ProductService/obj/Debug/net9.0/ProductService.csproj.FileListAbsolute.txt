@@ -1,11 +1,5 @@
-/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.csproj.AssemblyReference.cache
-/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.GeneratedMSBuildEditorConfig.editorconfig
-/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.AssemblyInfoInputs.cache
-/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.AssemblyInfo.cs
-/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.csproj.CoreCompileInputs.cache
-/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.MvcApplicationPartsAssemblyInfo.cs
-/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.MvcApplicationPartsAssemblyInfo.cache
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/appsettings.Development.json
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/appsettings.Docker.json
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/appsettings.json
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/ProductService.staticwebassets.endpoints.json
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/ProductService
@@ -16,8 +10,12 @@
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/Google.Protobuf.dll
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/Grpc.Core.Api.dll
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/Grpc.Net.Client.dll
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/Grpc.Net.ClientFactory.dll
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/Grpc.Net.Common.dll
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/Humanizer.dll
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/MediatR.dll
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/MediatR.Contracts.dll
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.Internal.dll
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -122,6 +120,14 @@
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.csproj.AssemblyReference.cache
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.AssemblyInfoInputs.cache
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.AssemblyInfo.cs
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.csproj.CoreCompileInputs.cache
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.MvcApplicationPartsAssemblyInfo.cs
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.MvcApplicationPartsAssemblyInfo.cache
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.sourcelink.json
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/scopedcss/bundle/ProductService.styles.css
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/staticwebassets.build.json
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/staticwebassets.development.json
@@ -138,5 +144,3 @@
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.pdb
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.genruntimeconfig.cache
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ref/ProductService.dll
-/Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/Grpc.Net.ClientFactory.dll
-/Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/appsettings.Docker.json

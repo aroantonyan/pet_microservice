@@ -15,4 +15,4 @@ public class LogSenderService(HttpClient client)
         var resp = await client.PostAsync(Endpoint, content);
         resp.EnsureSuccessStatusCode();
     }
-}   
+}
