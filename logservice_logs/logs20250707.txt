@@ -1,0 +1,51 @@
+2025-07-07 05:32:17.061 +00:00 [INF] Request starting HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - application/json; charset=utf-8 45
+2025-07-07 05:32:17.070 +00:00 [INF] Executing endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-07 05:32:17.071 +00:00 [INF] Route matched with {action = "ReceiveLog", controller = "Log"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveLog(LogService.Dto.LogRequestDto) on controller LogService.Controllers.LogController (LogService).
+2025-07-07 05:32:17.094 +00:00 [INF] Executing OkObjectResult, writing value of type 'LogService.Dto.LogRequestDto'.
+2025-07-07 05:32:17.095 +00:00 [INF] Executed action LogService.Controllers.LogController.ReceiveLog (LogService) in 23.8397ms
+2025-07-07 05:32:17.095 +00:00 [INF] Executed endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-07 05:32:17.096 +00:00 [INF] Request finished HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - 200 null application/json; charset=utf-8 35.8209ms
+2025-07-07 05:32:17.114 +00:00 [INF] A request to get price was sent
+2025-07-07 05:32:34.941 +00:00 [INF] Request starting HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - application/json; charset=utf-8 45
+2025-07-07 05:32:34.942 +00:00 [INF] Executing endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-07 05:32:34.943 +00:00 [INF] Route matched with {action = "ReceiveLog", controller = "Log"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveLog(LogService.Dto.LogRequestDto) on controller LogService.Controllers.LogController (LogService).
+2025-07-07 05:32:34.957 +00:00 [INF] Executing OkObjectResult, writing value of type 'LogService.Dto.LogRequestDto'.
+2025-07-07 05:32:34.958 +00:00 [INF] Executed action LogService.Controllers.LogController.ReceiveLog (LogService) in 15.0311ms
+2025-07-07 05:32:34.958 +00:00 [INF] Executed endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-07 05:32:34.959 +00:00 [INF] Request finished HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - 200 null application/json; charset=utf-8 17.9162ms
+2025-07-07 05:32:34.969 +00:00 [INF] A request to get price was sent
+2025-07-07 05:33:46.148 +00:00 [INF] Request starting HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - application/json; charset=utf-8 45
+2025-07-07 05:33:46.150 +00:00 [INF] Executing endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-07 05:33:46.150 +00:00 [INF] Route matched with {action = "ReceiveLog", controller = "Log"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveLog(LogService.Dto.LogRequestDto) on controller LogService.Controllers.LogController (LogService).
+2025-07-07 05:33:46.161 +00:00 [INF] Executing OkObjectResult, writing value of type 'LogService.Dto.LogRequestDto'.
+2025-07-07 05:33:46.162 +00:00 [INF] Executed action LogService.Controllers.LogController.ReceiveLog (LogService) in 11.8035ms
+2025-07-07 05:33:46.162 +00:00 [INF] Executed endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-07 05:33:46.163 +00:00 [INF] Request finished HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - 200 null application/json; charset=utf-8 14.7131ms
+2025-07-07 05:33:46.171 +00:00 [INF] A request to get price was sent
+2025-07-07 15:39:53.656 +00:00 [INF] 1 servers were removed due to timeout
+2025-07-07 15:40:01.180 +00:00 [WRN] Server 90c2d8df9e1b:1:fcca6a0d was considered dead by other servers, restarting...
+2025-07-07 15:40:01.181 +00:00 [INF] Server 90c2d8df9e1b:1:fcca6a0d caught restart signal...
+2025-07-07 15:40:01.188 +00:00 [WRN] Server 90c2d8df9e1b:1:fcca6a0d stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2025-07-07 15:40:01.192 +00:00 [INF] Server 90c2d8df9e1b:1:fcca6a0d successfully reported itself as stopped in 2.4815 ms
+2025-07-07 15:40:01.193 +00:00 [INF] Server 90c2d8df9e1b:1:fcca6a0d has been stopped in total 10.0908 ms
+2025-07-07 15:40:01.199 +00:00 [INF] Server 90c2d8df9e1b:1:b302432f successfully announced in 5.3596 ms
+2025-07-07 15:40:01.200 +00:00 [INF] Server 90c2d8df9e1b:1:b302432f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-07 15:40:01.210 +00:00 [INF] Server 90c2d8df9e1b:1:b302432f all the dispatchers started
+2025-07-07 17:22:17.306 +00:00 [INF] 1 servers were removed due to timeout
+2025-07-07 17:22:18.262 +00:00 [WRN] Server 90c2d8df9e1b:1:b302432f was considered dead by other servers, restarting...
+2025-07-07 17:22:18.262 +00:00 [INF] Server 90c2d8df9e1b:1:b302432f caught restart signal...
+2025-07-07 17:22:18.263 +00:00 [WRN] Server 90c2d8df9e1b:1:b302432f stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2025-07-07 17:22:18.278 +00:00 [INF] Server 90c2d8df9e1b:1:b302432f successfully reported itself as stopped in 0.8341 ms
+2025-07-07 17:22:18.278 +00:00 [INF] Server 90c2d8df9e1b:1:b302432f has been stopped in total 14.618 ms
+2025-07-07 17:22:18.280 +00:00 [INF] Server 90c2d8df9e1b:1:71627c59 successfully announced in 1.8402 ms
+2025-07-07 17:22:18.280 +00:00 [INF] Server 90c2d8df9e1b:1:71627c59 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-07 17:22:18.287 +00:00 [INF] Server 90c2d8df9e1b:1:71627c59 all the dispatchers started
+2025-07-07 20:29:34.023 +00:00 [INF] 1 servers were removed due to timeout
+2025-07-07 20:29:35.896 +00:00 [WRN] Server 90c2d8df9e1b:1:71627c59 was considered dead by other servers, restarting...
+2025-07-07 20:29:35.896 +00:00 [INF] Server 90c2d8df9e1b:1:71627c59 caught restart signal...
+2025-07-07 20:29:35.901 +00:00 [WRN] Server 90c2d8df9e1b:1:71627c59 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2025-07-07 20:29:35.906 +00:00 [INF] Server 90c2d8df9e1b:1:71627c59 successfully reported itself as stopped in 2.6004 ms
+2025-07-07 20:29:35.906 +00:00 [INF] Server 90c2d8df9e1b:1:71627c59 has been stopped in total 8.8191 ms
+2025-07-07 20:29:35.912 +00:00 [INF] Server 90c2d8df9e1b:1:f1370c13 successfully announced in 5.2427 ms
+2025-07-07 20:29:35.913 +00:00 [INF] Server 90c2d8df9e1b:1:f1370c13 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-07 20:29:35.925 +00:00 [INF] Server 90c2d8df9e1b:1:f1370c13 all the dispatchers started

@@ -1,0 +1,29 @@
+2025-07-08 00:45:43.860 +00:00 [INF] 1 servers were removed due to timeout
+2025-07-08 00:45:44.169 +00:00 [WRN] Server 90c2d8df9e1b:1:f1370c13 was considered dead by other servers, restarting...
+2025-07-08 00:45:44.170 +00:00 [INF] Server 90c2d8df9e1b:1:f1370c13 caught restart signal...
+2025-07-08 00:45:44.175 +00:00 [WRN] Server 90c2d8df9e1b:1:f1370c13 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2025-07-08 00:45:44.178 +00:00 [INF] Server 90c2d8df9e1b:1:f1370c13 successfully reported itself as stopped in 1.9925 ms
+2025-07-08 00:45:44.178 +00:00 [INF] Server 90c2d8df9e1b:1:f1370c13 has been stopped in total 3.8798 ms
+2025-07-08 00:45:44.181 +00:00 [INF] Server 90c2d8df9e1b:1:4a06b3a7 successfully announced in 3.2095 ms
+2025-07-08 00:45:44.182 +00:00 [INF] Server 90c2d8df9e1b:1:4a06b3a7 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-08 00:45:44.193 +00:00 [INF] Server 90c2d8df9e1b:1:4a06b3a7 all the dispatchers started
+2025-07-08 05:06:19.288 +00:00 [INF] 1 servers were removed due to timeout
+2025-07-08 05:06:19.376 +00:00 [WRN] Server 90c2d8df9e1b:1:4a06b3a7 was considered dead by other servers, restarting...
+2025-07-08 05:06:19.376 +00:00 [INF] Server 90c2d8df9e1b:1:4a06b3a7 caught restart signal...
+2025-07-08 05:06:19.389 +00:00 [WRN] Server 90c2d8df9e1b:1:4a06b3a7 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2025-07-08 05:06:19.393 +00:00 [INF] Server 90c2d8df9e1b:1:4a06b3a7 successfully reported itself as stopped in 2.6144 ms
+2025-07-08 05:06:19.393 +00:00 [INF] Server 90c2d8df9e1b:1:4a06b3a7 has been stopped in total 4.2349 ms
+2025-07-08 05:06:19.400 +00:00 [INF] Server 90c2d8df9e1b:1:ff610b1b successfully announced in 5.8583 ms
+2025-07-08 05:06:19.401 +00:00 [INF] Server 90c2d8df9e1b:1:ff610b1b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-08 05:06:19.417 +00:00 [INF] Server 90c2d8df9e1b:1:ff610b1b all the dispatchers started
+2025-07-08 06:48:01.108 +00:00 [INF] Removed 1 outdated record(s) from 'aggregatedcounter' table.
+2025-07-08 06:48:02.133 +00:00 [INF] Removed 3 outdated record(s) from 'job' table.
+2025-07-08 18:31:29.366 +00:00 [INF] 1 servers were removed due to timeout
+2025-07-08 18:31:40.087 +00:00 [WRN] Server 90c2d8df9e1b:1:ff610b1b was considered dead by other servers, restarting...
+2025-07-08 18:31:40.088 +00:00 [INF] Server 90c2d8df9e1b:1:ff610b1b caught restart signal...
+2025-07-08 18:31:40.093 +00:00 [WRN] Server 90c2d8df9e1b:1:ff610b1b stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2025-07-08 18:31:40.100 +00:00 [INF] Server 90c2d8df9e1b:1:ff610b1b successfully reported itself as stopped in 2.1649 ms
+2025-07-08 18:31:40.101 +00:00 [INF] Server 90c2d8df9e1b:1:ff610b1b has been stopped in total 8.0702 ms
+2025-07-08 18:31:40.106 +00:00 [INF] Server 90c2d8df9e1b:1:f892be4e successfully announced in 3.6612 ms
+2025-07-08 18:31:40.106 +00:00 [INF] Server 90c2d8df9e1b:1:f892be4e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-08 18:31:40.113 +00:00 [INF] Server 90c2d8df9e1b:1:f892be4e all the dispatchers started

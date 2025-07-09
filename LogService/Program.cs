@@ -14,6 +14,8 @@ builder.Logging.AddFilter("Hangfire", LogLevel.Warning);
 
 builder.Logging.AddSerilog();
 
+
+
 var cs = builder.Configuration.GetConnectionString("HangfireConnection");
 
 builder.Services.AddHangfire(cfg => cfg.UsePostgreSqlStorage(cs));

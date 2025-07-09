@@ -1,4 +1,5 @@
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/appsettings.Development.json
+/Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/appsettings.Docker.json
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/appsettings.json
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/PriceService.staticwebassets.endpoints.json
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/PriceService
@@ -10,10 +11,12 @@
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Google.Protobuf.dll
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Grpc.AspNetCore.Server.dll
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Grpc.AspNetCore.Server.ClientFactory.dll
+/Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Grpc.AspNetCore.Server.Reflection.dll
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Grpc.Core.Api.dll
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Grpc.Net.Client.dll
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Grpc.Net.ClientFactory.dll
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Grpc.Net.Common.dll
+/Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Grpc.Reflection.dll
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Npgsql.dll
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/PriceService.csproj.AssemblyReference.cache
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/PriceService.GeneratedMSBuildEditorConfig.editorconfig
@@ -21,6 +24,7 @@
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/PriceService.AssemblyInfo.cs
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/PriceService.csproj.CoreCompileInputs.cache
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/PriceService.MvcApplicationPartsAssemblyInfo.cache
+/Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/PriceService.sourcelink.json
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/scopedcss/bundle/PriceService.styles.css
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/staticwebassets.build.json
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/staticwebassets.development.json
@@ -37,6 +41,8 @@
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/PriceService.pdb
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/PriceService.genruntimeconfig.cache
 /Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/ref/PriceService.dll
-/Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/appsettings.Docker.json
-/Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Grpc.AspNetCore.Server.Reflection.dll
-/Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Grpc.Reflection.dll
+/Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/test/Desktop/vahe_task/vahe_task/PriceService/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/Debug/net9.0/PriceService.MvcApplicationPartsAssemblyInfo.cs

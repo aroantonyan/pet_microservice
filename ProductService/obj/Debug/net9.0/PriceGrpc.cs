@@ -53,6 +53,10 @@ namespace PriceContracts {
     static readonly grpc::Marshaller<global::PriceContracts.GetPriceByIdRequest> __Marshaller_price_GetPriceByIdRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PriceContracts.GetPriceByIdRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::PriceContracts.GetPriceByIdReply> __Marshaller_price_GetPriceByIdReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PriceContracts.GetPriceByIdReply.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::PriceContracts.DeletePriceRequest> __Marshaller_price_DeletePriceRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PriceContracts.DeletePriceRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::PriceContracts.DeletePriceReply> __Marshaller_price_DeletePriceReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PriceContracts.DeletePriceReply.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::PriceContracts.CreatePriceRequest, global::PriceContracts.CreatePriceReply> __Method_CreatePrice = new grpc::Method<global::PriceContracts.CreatePriceRequest, global::PriceContracts.CreatePriceReply>(
@@ -69,6 +73,14 @@ namespace PriceContracts {
         "GetPriceById",
         __Marshaller_price_GetPriceByIdRequest,
         __Marshaller_price_GetPriceByIdReply);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::PriceContracts.DeletePriceRequest, global::PriceContracts.DeletePriceReply> __Method_DeletePrice = new grpc::Method<global::PriceContracts.DeletePriceRequest, global::PriceContracts.DeletePriceReply>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeletePrice",
+        __Marshaller_price_DeletePriceRequest,
+        __Marshaller_price_DeletePriceReply);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -142,6 +154,26 @@ namespace PriceContracts {
       public virtual grpc::AsyncUnaryCall<global::PriceContracts.GetPriceByIdReply> GetPriceByIdAsync(global::PriceContracts.GetPriceByIdRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetPriceById, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::PriceContracts.DeletePriceReply DeletePrice(global::PriceContracts.DeletePriceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeletePrice(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::PriceContracts.DeletePriceReply DeletePrice(global::PriceContracts.DeletePriceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeletePrice, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::PriceContracts.DeletePriceReply> DeletePriceAsync(global::PriceContracts.DeletePriceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeletePriceAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::PriceContracts.DeletePriceReply> DeletePriceAsync(global::PriceContracts.DeletePriceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeletePrice, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

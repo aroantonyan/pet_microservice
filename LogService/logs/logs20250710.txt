@@ -1,0 +1,197 @@
+2025-07-10 00:21:41.564 +04:00 [INF] Server mac:35746:02ad14bd caught stopping signal...
+2025-07-10 00:21:41.571 +04:00 [INF] Application is shutting down...
+2025-07-10 00:21:41.572 +04:00 [INF] Server mac:35746:02ad14bd All dispatchers stopped
+2025-07-10 00:21:41.576 +04:00 [INF] Server mac:35746:02ad14bd successfully reported itself as stopped in 2,5015 ms
+2025-07-10 00:21:41.576 +04:00 [INF] Server mac:35746:02ad14bd has been stopped in total 6,4563 ms
+2025-07-10 00:23:01.917 +04:00 [INF] Start installing Hangfire SQL objects...
+2025-07-10 00:23:01.969 +04:00 [INF] Hangfire SQL objects installed.
+2025-07-10 00:23:01.987 +04:00 [INF] Now listening on: http://localhost:5085
+2025-07-10 00:23:01.989 +04:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangFireDb, Schema: hangfire'
+2025-07-10 00:23:01.989 +04:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-10 00:23:01.990 +04:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-10 00:23:01.990 +04:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-10 00:23:01.990 +04:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-10 00:23:01.990 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-10 00:23:01.995 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-10 00:23:01.995 +04:00 [INF] Hosting environment: Development
+2025-07-10 00:23:01.995 +04:00 [INF] Content root path: /Users/test/Desktop/vahe_task/vahe_task/LogService
+2025-07-10 00:23:02.053 +04:00 [INF] Server tests-macbook-pro:36200:0c6e31ef successfully announced in 54,5968 ms
+2025-07-10 00:23:02.054 +04:00 [INF] Server tests-macbook-pro:36200:0c6e31ef is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-10 00:23:02.057 +04:00 [INF] Server tests-macbook-pro:36200:0c6e31ef all the dispatchers started
+2025-07-10 00:24:24.787 +04:00 [INF] Server tests-macbook-pro:36200:0c6e31ef caught stopping signal...
+2025-07-10 00:24:24.789 +04:00 [INF] Application is shutting down...
+2025-07-10 00:24:24.791 +04:00 [INF] Server tests-macbook-pro:36200:0c6e31ef All dispatchers stopped
+2025-07-10 00:24:24.793 +04:00 [INF] Server tests-macbook-pro:36200:0c6e31ef successfully reported itself as stopped in 1,5707 ms
+2025-07-10 00:24:24.794 +04:00 [INF] Server tests-macbook-pro:36200:0c6e31ef has been stopped in total 4,6527 ms
+2025-07-10 00:24:28.010 +04:00 [INF] Start installing Hangfire SQL objects...
+2025-07-10 00:24:28.062 +04:00 [INF] Hangfire SQL objects installed.
+2025-07-10 00:24:28.079 +04:00 [INF] Now listening on: http://localhost:5085
+2025-07-10 00:24:28.081 +04:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangFireDb, Schema: hangfire'
+2025-07-10 00:24:28.081 +04:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-10 00:24:28.081 +04:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-10 00:24:28.081 +04:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-10 00:24:28.081 +04:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-10 00:24:28.081 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-10 00:24:28.086 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-10 00:24:28.086 +04:00 [INF] Hosting environment: Development
+2025-07-10 00:24:28.086 +04:00 [INF] Content root path: /Users/test/Desktop/vahe_task/vahe_task/LogService
+2025-07-10 00:24:28.144 +04:00 [INF] Server tests-macbook-pro:36318:b96a6b3f successfully announced in 54,6047 ms
+2025-07-10 00:24:28.145 +04:00 [INF] Server tests-macbook-pro:36318:b96a6b3f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-10 00:24:28.147 +04:00 [INF] Server tests-macbook-pro:36318:b96a6b3f all the dispatchers started
+2025-07-10 00:26:35.552 +04:00 [INF] Server tests-macbook-pro:36318:b96a6b3f caught stopping signal...
+2025-07-10 00:26:35.555 +04:00 [INF] Application is shutting down...
+2025-07-10 00:26:35.556 +04:00 [INF] Server tests-macbook-pro:36318:b96a6b3f All dispatchers stopped
+2025-07-10 00:26:35.559 +04:00 [INF] Server tests-macbook-pro:36318:b96a6b3f successfully reported itself as stopped in 2,2635 ms
+2025-07-10 00:26:35.559 +04:00 [INF] Server tests-macbook-pro:36318:b96a6b3f has been stopped in total 5,2194 ms
+2025-07-10 00:33:22.216 +04:00 [INF] Start installing Hangfire SQL objects...
+2025-07-10 00:33:22.269 +04:00 [INF] Hangfire SQL objects installed.
+2025-07-10 00:33:22.291 +04:00 [INF] Now listening on: http://localhost:5085
+2025-07-10 00:33:22.293 +04:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangFireDb, Schema: hangfire'
+2025-07-10 00:33:22.293 +04:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-10 00:33:22.294 +04:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-10 00:33:22.294 +04:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-10 00:33:22.294 +04:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-10 00:33:22.294 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-10 00:33:22.299 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-10 00:33:22.299 +04:00 [INF] Hosting environment: Development
+2025-07-10 00:33:22.299 +04:00 [INF] Content root path: /Users/test/Desktop/vahe_task/vahe_task/LogService
+2025-07-10 00:33:22.362 +04:00 [INF] Server tests-macbook-pro:36744:f3bbece5 successfully announced in 59,0183 ms
+2025-07-10 00:33:22.363 +04:00 [INF] Server tests-macbook-pro:36744:f3bbece5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-10 00:33:22.365 +04:00 [INF] Server tests-macbook-pro:36744:f3bbece5 all the dispatchers started
+2025-07-10 00:48:09.196 +04:00 [INF] Server tests-macbook-pro:36744:f3bbece5 caught stopping signal...
+2025-07-10 00:48:09.199 +04:00 [INF] Application is shutting down...
+2025-07-10 00:48:09.200 +04:00 [INF] Server tests-macbook-pro:36744:f3bbece5 All dispatchers stopped
+2025-07-10 00:48:09.203 +04:00 [INF] Server tests-macbook-pro:36744:f3bbece5 successfully reported itself as stopped in 2,5852 ms
+2025-07-10 00:48:09.203 +04:00 [INF] Server tests-macbook-pro:36744:f3bbece5 has been stopped in total 4,9514 ms
+2025-07-10 00:48:29.983 +04:00 [INF] Start installing Hangfire SQL objects...
+2025-07-10 00:48:30.034 +04:00 [INF] Hangfire SQL objects installed.
+2025-07-10 00:48:30.050 +04:00 [INF] Now listening on: http://localhost:5085
+2025-07-10 00:48:30.052 +04:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangFireDb, Schema: hangfire'
+2025-07-10 00:48:30.052 +04:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-10 00:48:30.052 +04:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-10 00:48:30.052 +04:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-10 00:48:30.052 +04:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-10 00:48:30.052 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-10 00:48:30.057 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-10 00:48:30.057 +04:00 [INF] Hosting environment: Development
+2025-07-10 00:48:30.057 +04:00 [INF] Content root path: /Users/test/Desktop/vahe_task/vahe_task/LogService
+2025-07-10 00:48:30.118 +04:00 [INF] Server tests-macbook-pro:37209:c5619f37 successfully announced in 57,369 ms
+2025-07-10 00:48:30.119 +04:00 [INF] Server tests-macbook-pro:37209:c5619f37 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-10 00:48:30.122 +04:00 [INF] Server tests-macbook-pro:37209:c5619f37 all the dispatchers started
+2025-07-10 00:48:51.531 +04:00 [INF] Server tests-macbook-pro:37209:c5619f37 caught stopping signal...
+2025-07-10 00:48:51.533 +04:00 [INF] Application is shutting down...
+2025-07-10 00:48:51.535 +04:00 [INF] Server tests-macbook-pro:37209:c5619f37 All dispatchers stopped
+2025-07-10 00:48:51.561 +04:00 [INF] Server tests-macbook-pro:37209:c5619f37 successfully reported itself as stopped in 23,2472 ms
+2025-07-10 00:48:51.561 +04:00 [INF] Server tests-macbook-pro:37209:c5619f37 has been stopped in total 28,4898 ms
+2025-07-10 00:49:05.202 +04:00 [INF] Start installing Hangfire SQL objects...
+2025-07-10 00:49:05.256 +04:00 [INF] Hangfire SQL objects installed.
+2025-07-10 00:49:05.277 +04:00 [INF] Now listening on: http://localhost:5085
+2025-07-10 00:49:05.279 +04:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangFireDb, Schema: hangfire'
+2025-07-10 00:49:05.279 +04:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-10 00:49:05.279 +04:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-10 00:49:05.279 +04:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-10 00:49:05.279 +04:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-10 00:49:05.279 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-10 00:49:05.285 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-10 00:49:05.285 +04:00 [INF] Hosting environment: Development
+2025-07-10 00:49:05.285 +04:00 [INF] Content root path: /Users/test/Desktop/vahe_task/vahe_task/LogService
+2025-07-10 00:49:05.343 +04:00 [INF] Server tests-macbook-pro:37266:e5e7b3eb successfully announced in 54,3893 ms
+2025-07-10 00:49:05.344 +04:00 [INF] Server tests-macbook-pro:37266:e5e7b3eb is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-10 00:49:05.346 +04:00 [INF] Server tests-macbook-pro:37266:e5e7b3eb all the dispatchers started
+2025-07-10 00:54:38.043 +04:00 [INF] Server tests-macbook-pro:37266:e5e7b3eb caught stopping signal...
+2025-07-10 00:54:38.045 +04:00 [INF] Application is shutting down...
+2025-07-10 00:54:38.046 +04:00 [INF] Server tests-macbook-pro:37266:e5e7b3eb All dispatchers stopped
+2025-07-10 00:54:38.049 +04:00 [INF] Server tests-macbook-pro:37266:e5e7b3eb successfully reported itself as stopped in 2,1725 ms
+2025-07-10 00:54:38.049 +04:00 [INF] Server tests-macbook-pro:37266:e5e7b3eb has been stopped in total 4,5795 ms
+2025-07-10 00:54:41.522 +04:00 [INF] Start installing Hangfire SQL objects...
+2025-07-10 00:54:41.574 +04:00 [INF] Hangfire SQL objects installed.
+2025-07-10 00:54:41.592 +04:00 [INF] Now listening on: http://localhost:5085
+2025-07-10 00:54:41.594 +04:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangFireDb, Schema: hangfire'
+2025-07-10 00:54:41.594 +04:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-10 00:54:41.594 +04:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-10 00:54:41.594 +04:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-10 00:54:41.594 +04:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-10 00:54:41.594 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-10 00:54:41.600 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-10 00:54:41.600 +04:00 [INF] Hosting environment: Development
+2025-07-10 00:54:41.600 +04:00 [INF] Content root path: /Users/test/Desktop/vahe_task/vahe_task/LogService
+2025-07-10 00:54:41.657 +04:00 [INF] Server tests-macbook-pro:37595:ee6f76e7 successfully announced in 52,9457 ms
+2025-07-10 00:54:41.658 +04:00 [INF] Server tests-macbook-pro:37595:ee6f76e7 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-10 00:54:41.660 +04:00 [INF] Server tests-macbook-pro:37595:ee6f76e7 all the dispatchers started
+2025-07-10 00:56:37.876 +04:00 [INF] Server tests-macbook-pro:37595:ee6f76e7 caught stopping signal...
+2025-07-10 00:56:37.879 +04:00 [INF] Application is shutting down...
+2025-07-10 00:56:37.880 +04:00 [INF] Server tests-macbook-pro:37595:ee6f76e7 All dispatchers stopped
+2025-07-10 00:56:37.883 +04:00 [INF] Server tests-macbook-pro:37595:ee6f76e7 successfully reported itself as stopped in 2,2772 ms
+2025-07-10 00:56:37.883 +04:00 [INF] Server tests-macbook-pro:37595:ee6f76e7 has been stopped in total 4,3492 ms
+2025-07-10 00:58:04.431 +04:00 [INF] Start installing Hangfire SQL objects...
+2025-07-10 00:58:04.488 +04:00 [INF] Hangfire SQL objects installed.
+2025-07-10 00:58:04.507 +04:00 [INF] Now listening on: http://localhost:5085
+2025-07-10 00:58:04.510 +04:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangFireDb, Schema: hangfire'
+2025-07-10 00:58:04.510 +04:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-10 00:58:04.510 +04:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-10 00:58:04.510 +04:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-10 00:58:04.510 +04:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-10 00:58:04.510 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-10 00:58:04.515 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-10 00:58:04.516 +04:00 [INF] Hosting environment: Development
+2025-07-10 00:58:04.516 +04:00 [INF] Content root path: /Users/test/Desktop/vahe_task/vahe_task/LogService
+2025-07-10 00:58:04.572 +04:00 [INF] Server tests-macbook-pro:37730:ef6fd290 successfully announced in 52,6235 ms
+2025-07-10 00:58:04.573 +04:00 [INF] Server tests-macbook-pro:37730:ef6fd290 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-10 00:58:04.575 +04:00 [INF] Server tests-macbook-pro:37730:ef6fd290 all the dispatchers started
+2025-07-10 01:01:18.495 +04:00 [INF] Server tests-macbook-pro:37730:ef6fd290 caught stopping signal...
+2025-07-10 01:01:18.497 +04:00 [INF] Application is shutting down...
+2025-07-10 01:01:18.498 +04:00 [INF] Server tests-macbook-pro:37730:ef6fd290 All dispatchers stopped
+2025-07-10 01:01:18.502 +04:00 [INF] Server tests-macbook-pro:37730:ef6fd290 successfully reported itself as stopped in 2,3726 ms
+2025-07-10 01:01:18.502 +04:00 [INF] Server tests-macbook-pro:37730:ef6fd290 has been stopped in total 4,85 ms
+2025-07-10 01:13:15.342 +04:00 [INF] Start installing Hangfire SQL objects...
+2025-07-10 01:13:15.395 +04:00 [INF] Hangfire SQL objects installed.
+2025-07-10 01:13:15.415 +04:00 [INF] Now listening on: http://localhost:5085
+2025-07-10 01:13:15.417 +04:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangFireDb, Schema: hangfire'
+2025-07-10 01:13:15.417 +04:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-10 01:13:15.418 +04:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-10 01:13:15.418 +04:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-10 01:13:15.418 +04:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-10 01:13:15.418 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-10 01:13:15.423 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-10 01:13:15.423 +04:00 [INF] Hosting environment: Development
+2025-07-10 01:13:15.423 +04:00 [INF] Content root path: /Users/test/Desktop/vahe_task/vahe_task/LogService
+2025-07-10 01:13:15.481 +04:00 [INF] Server tests-macbook-pro:38140:887a0738 successfully announced in 54,2954 ms
+2025-07-10 01:13:15.482 +04:00 [INF] Server tests-macbook-pro:38140:887a0738 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-10 01:13:15.485 +04:00 [INF] Server tests-macbook-pro:38140:887a0738 all the dispatchers started
+2025-07-10 01:14:32.484 +04:00 [INF] Server tests-macbook-pro:38140:887a0738 caught stopping signal...
+2025-07-10 01:14:32.485 +04:00 [INF] Application is shutting down...
+2025-07-10 01:14:32.486 +04:00 [INF] Server tests-macbook-pro:38140:887a0738 All dispatchers stopped
+2025-07-10 01:14:32.489 +04:00 [INF] Server tests-macbook-pro:38140:887a0738 successfully reported itself as stopped in 1,4582 ms
+2025-07-10 01:14:32.489 +04:00 [INF] Server tests-macbook-pro:38140:887a0738 has been stopped in total 3,9614 ms

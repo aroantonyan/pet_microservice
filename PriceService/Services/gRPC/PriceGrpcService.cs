@@ -46,4 +46,15 @@ public class PriceGrpcService(IConfiguration cfg) : PriceContracts.PriceService.
             Found    = true
         };
     }
+
+    public override async Task<DeletePriceReply> DeletePrice(DeletePriceRequest r, ServerCallContext ctx)
+    {
+        const string sql = "DELETE FROM price WHERE price_id = $1;";
+        await using var c = new NpgsqlConnection(ConnString);
+        await c.OpenAsync(ctx.CancellationToken);
+        await using var cmd = new NpgsqlCommand(sql, c);
+        cmd.Parameters.AddWithValue(Guid.Parse(r.PriceId));
+        var rows =await cmd.ExecuteNonQueryAsync(ctx.CancellationToken);
+        return new DeletePriceReply { Success = rows > 0 };
+    }
 }

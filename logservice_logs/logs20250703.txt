@@ -1,0 +1,119 @@
+2025-07-03 12:40:27.705 +00:00 [INF] Start installing Hangfire SQL objects...
+2025-07-03 12:40:27.824 +00:00 [INF] Hangfire SQL objects installed.
+2025-07-03 12:40:27.849 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2025-07-03 12:40:27.911 +00:00 [INF] Now listening on: http://[::]:8080
+2025-07-03 12:40:27.916 +00:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: host.docker.internal, DB: HangFireDb, Schema: hangfire'
+2025-07-03 12:40:27.916 +00:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-03 12:40:27.916 +00:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-03 12:40:27.916 +00:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-03 12:40:27.916 +00:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-03 12:40:27.917 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-03 12:40:27.931 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-03 12:40:27.931 +00:00 [INF] Hosting environment: Docker
+2025-07-03 12:40:27.931 +00:00 [INF] Content root path: /app
+2025-07-03 12:40:28.071 +00:00 [INF] Server e1bacc436edd:1:b0d58b4a successfully announced in 132.1057 ms
+2025-07-03 12:40:28.074 +00:00 [INF] Server e1bacc436edd:1:b0d58b4a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-03 12:40:28.099 +00:00 [INF] Server e1bacc436edd:1:b0d58b4a all the dispatchers started
+2025-07-03 12:41:51.641 +00:00 [INF] Server e1bacc436edd:1:b0d58b4a caught stopping signal...
+2025-07-03 12:41:51.672 +00:00 [INF] Application is shutting down...
+2025-07-03 12:41:51.690 +00:00 [INF] Server e1bacc436edd:1:b0d58b4a All dispatchers stopped
+2025-07-03 12:41:51.701 +00:00 [INF] Server e1bacc436edd:1:b0d58b4a successfully reported itself as stopped in 5.5975 ms
+2025-07-03 12:41:51.701 +00:00 [INF] Server e1bacc436edd:1:b0d58b4a has been stopped in total 50.9597 ms
+2025-07-03 12:48:53.515 +00:00 [INF] Start installing Hangfire SQL objects...
+2025-07-03 12:48:53.625 +00:00 [INF] Hangfire SQL objects installed.
+2025-07-03 12:48:53.648 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2025-07-03 12:48:53.709 +00:00 [INF] Now listening on: http://[::]:8080
+2025-07-03 12:48:53.714 +00:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: host.docker.internal, DB: HangFireDb, Schema: hangfire'
+2025-07-03 12:48:53.714 +00:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-03 12:48:53.714 +00:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-03 12:48:53.714 +00:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-03 12:48:53.715 +00:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-03 12:48:53.715 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-03 12:48:53.726 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-03 12:48:53.726 +00:00 [INF] Hosting environment: Docker
+2025-07-03 12:48:53.726 +00:00 [INF] Content root path: /app
+2025-07-03 12:48:53.859 +00:00 [INF] Server e1bacc436edd:1:c957f29d successfully announced in 124.2338 ms
+2025-07-03 12:48:53.862 +00:00 [INF] Server e1bacc436edd:1:c957f29d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-03 12:48:53.884 +00:00 [INF] Server e1bacc436edd:1:c957f29d all the dispatchers started
+2025-07-03 12:49:00.082 +00:00 [INF] Server e1bacc436edd:1:c957f29d caught stopping signal...
+2025-07-03 12:49:00.138 +00:00 [INF] Application is shutting down...
+2025-07-03 12:49:00.152 +00:00 [INF] Server e1bacc436edd:1:c957f29d All dispatchers stopped
+2025-07-03 12:49:00.181 +00:00 [INF] Server e1bacc436edd:1:c957f29d successfully reported itself as stopped in 23.5758 ms
+2025-07-03 12:49:00.181 +00:00 [INF] Server e1bacc436edd:1:c957f29d has been stopped in total 90.5407 ms
+2025-07-03 12:49:19.785 +00:00 [INF] Start installing Hangfire SQL objects...
+2025-07-03 12:49:19.897 +00:00 [INF] Hangfire SQL objects installed.
+2025-07-03 12:49:19.920 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2025-07-03 12:49:19.980 +00:00 [INF] Now listening on: http://[::]:8080
+2025-07-03 12:49:19.985 +00:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: host.docker.internal, DB: HangFireDb, Schema: hangfire'
+2025-07-03 12:49:19.985 +00:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-03 12:49:19.986 +00:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-03 12:49:19.986 +00:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-03 12:49:19.986 +00:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-03 12:49:19.986 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-03 12:49:20.000 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-03 12:49:20.000 +00:00 [INF] Hosting environment: Docker
+2025-07-03 12:49:20.000 +00:00 [INF] Content root path: /app
+2025-07-03 12:49:20.135 +00:00 [INF] Server d782f901d780:1:3ea9bd99 successfully announced in 126.9711 ms
+2025-07-03 12:49:20.137 +00:00 [INF] Server d782f901d780:1:3ea9bd99 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-03 12:49:20.160 +00:00 [INF] Server d782f901d780:1:3ea9bd99 all the dispatchers started
+2025-07-03 12:49:25.920 +00:00 [INF] Server d782f901d780:1:3ea9bd99 caught stopping signal...
+2025-07-03 12:49:25.978 +00:00 [INF] Application is shutting down...
+2025-07-03 12:49:25.991 +00:00 [INF] Server d782f901d780:1:3ea9bd99 All dispatchers stopped
+2025-07-03 12:49:26.017 +00:00 [INF] Server d782f901d780:1:3ea9bd99 successfully reported itself as stopped in 17.9793 ms
+2025-07-03 12:49:26.018 +00:00 [INF] Server d782f901d780:1:3ea9bd99 has been stopped in total 90.7234 ms
+2025-07-03 12:50:41.112 +00:00 [INF] Start installing Hangfire SQL objects...
+2025-07-03 12:50:41.217 +00:00 [INF] Hangfire SQL objects installed.
+2025-07-03 12:50:41.241 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2025-07-03 12:50:41.312 +00:00 [INF] Now listening on: http://[::]:8080
+2025-07-03 12:50:41.318 +00:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: host.docker.internal, DB: HangFireDb, Schema: hangfire'
+2025-07-03 12:50:41.318 +00:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-03 12:50:41.319 +00:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-03 12:50:41.319 +00:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-03 12:50:41.319 +00:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-03 12:50:41.319 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-03 12:50:41.333 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-03 12:50:41.334 +00:00 [INF] Hosting environment: Docker
+2025-07-03 12:50:41.334 +00:00 [INF] Content root path: /app
+2025-07-03 12:50:41.485 +00:00 [INF] Server 90c2d8df9e1b:1:11417955 successfully announced in 142.445 ms
+2025-07-03 12:50:41.488 +00:00 [INF] Server 90c2d8df9e1b:1:11417955 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-03 12:50:41.511 +00:00 [INF] Server 90c2d8df9e1b:1:11417955 all the dispatchers started
+2025-07-03 12:50:50.713 +00:00 [INF] Request starting HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - application/json; charset=utf-8 45
+2025-07-03 12:50:50.738 +00:00 [INF] Executing endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-03 12:50:50.758 +00:00 [INF] Route matched with {action = "ReceiveLog", controller = "Log"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveLog(LogService.Dto.LogRequestDto) on controller LogService.Controllers.LogController (LogService).
+2025-07-03 12:50:50.894 +00:00 [INF] Executing OkObjectResult, writing value of type 'LogService.Dto.LogRequestDto'.
+2025-07-03 12:50:50.914 +00:00 [INF] Executed action LogService.Controllers.LogController.ReceiveLog (LogService) in 149.8384ms
+2025-07-03 12:50:50.915 +00:00 [INF] Executed endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-03 12:50:50.919 +00:00 [INF] Request finished HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - 200 null application/json; charset=utf-8 206.7435ms
+2025-07-03 12:50:50.981 +00:00 [INF] A request to get price was sent
+2025-07-03 12:50:55.326 +00:00 [INF] Request starting HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - application/json; charset=utf-8 45
+2025-07-03 12:50:55.331 +00:00 [INF] Executing endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-03 12:50:55.333 +00:00 [INF] Route matched with {action = "ReceiveLog", controller = "Log"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveLog(LogService.Dto.LogRequestDto) on controller LogService.Controllers.LogController (LogService).
+2025-07-03 12:50:55.362 +00:00 [INF] Executing OkObjectResult, writing value of type 'LogService.Dto.LogRequestDto'.
+2025-07-03 12:50:55.367 +00:00 [INF] Executed action LogService.Controllers.LogController.ReceiveLog (LogService) in 32.2469ms
+2025-07-03 12:50:55.367 +00:00 [INF] Executed endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-03 12:50:55.368 +00:00 [INF] Request finished HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - 200 null application/json; charset=utf-8 43.757ms
+2025-07-03 12:50:55.379 +00:00 [INF] A request to get price was sent
+2025-07-03 13:50:42.238 +00:00 [INF] Removed 2 outdated record(s) from 'aggregatedcounter' table.
+2025-07-03 13:50:43.279 +00:00 [INF] Removed 15 outdated record(s) from 'job' table.
+2025-07-03 16:51:06.166 +00:00 [INF] Removed 1 outdated record(s) from 'aggregatedcounter' table.
+2025-07-03 16:51:07.190 +00:00 [INF] Removed 4 outdated record(s) from 'job' table.
+2025-07-03 18:16:35.011 +00:00 [INF] Removed 1 outdated record(s) from 'aggregatedcounter' table.
+2025-07-03 18:16:36.053 +00:00 [INF] Removed 2 outdated record(s) from 'job' table.
+2025-07-03 20:25:35.482 +00:00 [INF] Removed 2 outdated record(s) from 'aggregatedcounter' table.
+2025-07-03 20:25:36.514 +00:00 [INF] Removed 3 outdated record(s) from 'job' table.

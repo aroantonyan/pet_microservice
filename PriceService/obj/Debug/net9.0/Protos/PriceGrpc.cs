@@ -53,6 +53,10 @@ namespace PriceContracts {
     static readonly grpc::Marshaller<global::PriceContracts.GetPriceByIdRequest> __Marshaller_price_GetPriceByIdRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PriceContracts.GetPriceByIdRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::PriceContracts.GetPriceByIdReply> __Marshaller_price_GetPriceByIdReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PriceContracts.GetPriceByIdReply.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::PriceContracts.DeletePriceRequest> __Marshaller_price_DeletePriceRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PriceContracts.DeletePriceRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::PriceContracts.DeletePriceReply> __Marshaller_price_DeletePriceReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PriceContracts.DeletePriceReply.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::PriceContracts.CreatePriceRequest, global::PriceContracts.CreatePriceReply> __Method_CreatePrice = new grpc::Method<global::PriceContracts.CreatePriceRequest, global::PriceContracts.CreatePriceReply>(
@@ -69,6 +73,14 @@ namespace PriceContracts {
         "GetPriceById",
         __Marshaller_price_GetPriceByIdRequest,
         __Marshaller_price_GetPriceByIdReply);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::PriceContracts.DeletePriceRequest, global::PriceContracts.DeletePriceReply> __Method_DeletePrice = new grpc::Method<global::PriceContracts.DeletePriceRequest, global::PriceContracts.DeletePriceReply>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeletePrice",
+        __Marshaller_price_DeletePriceRequest,
+        __Marshaller_price_DeletePriceReply);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -92,6 +104,12 @@ namespace PriceContracts {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::PriceContracts.DeletePriceReply> DeletePrice(global::PriceContracts.DeletePriceRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -101,7 +119,8 @@ namespace PriceContracts {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_CreatePrice, serviceImpl.CreatePrice)
-          .AddMethod(__Method_GetPriceById, serviceImpl.GetPriceById).Build();
+          .AddMethod(__Method_GetPriceById, serviceImpl.GetPriceById)
+          .AddMethod(__Method_DeletePrice, serviceImpl.DeletePrice).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -113,6 +132,7 @@ namespace PriceContracts {
     {
       serviceBinder.AddMethod(__Method_CreatePrice, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::PriceContracts.CreatePriceRequest, global::PriceContracts.CreatePriceReply>(serviceImpl.CreatePrice));
       serviceBinder.AddMethod(__Method_GetPriceById, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::PriceContracts.GetPriceByIdRequest, global::PriceContracts.GetPriceByIdReply>(serviceImpl.GetPriceById));
+      serviceBinder.AddMethod(__Method_DeletePrice, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::PriceContracts.DeletePriceRequest, global::PriceContracts.DeletePriceReply>(serviceImpl.DeletePrice));
     }
 
   }

@@ -1,0 +1,54 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.9"
+services:
+  log-service:
+    build:
+      context: "/Users/test/Desktop/vahe_task/vahe_task/LogService"
+      dockerfile: "Dockerfile"
+      target: "build"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/LogService.dll"
+    environment: {}
+    image: "logservice:dev"
+    ports: []
+    volumes:
+    - "/Users/test/Desktop/vahe_task/vahe_task/LogService:/app:rw"
+    - "/Users/test/Desktop/vahe_task/vahe_task:/src:rw"
+    - "/Users/test/.nuget/packages:/root/.nuget/packages"
+    working_dir: "/app"
+  price-service:
+    build:
+      context: "/Users/test/Desktop/vahe_task/vahe_task/PriceService"
+      dockerfile: "Dockerfile"
+      target: "build"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/PriceService.dll"
+    environment: {}
+    image: "priceservice:dev"
+    ports: []
+    volumes:
+    - "/Users/test/Desktop/vahe_task/vahe_task/PriceService:/app:rw"
+    - "/Users/test/Desktop/vahe_task/vahe_task:/src:rw"
+    - "/Users/test/.nuget/packages:/root/.nuget/packages"
+    working_dir: "/app"
+  product-service:
+    build:
+      context: "/Users/test/Desktop/vahe_task/vahe_task"
+      dockerfile: "ProductService/Dockerfile"
+      target: "build"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/ProductService.dll"
+    environment: {}
+    image: "productservice:dev"
+    ports: []
+    volumes:
+    - "/Users/test/Desktop/vahe_task/vahe_task/ProductService:/app:rw"
+    - "/Users/test/Desktop/vahe_task/vahe_task:/src:rw"
+    - "/Users/test/.nuget/packages:/root/.nuget/packages"
+    working_dir: "/app"

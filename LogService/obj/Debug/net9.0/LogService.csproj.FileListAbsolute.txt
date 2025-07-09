@@ -63,3 +63,4 @@
 /Users/test/Desktop/vahe_task/vahe_task/LogService/obj/Debug/net9.0/LogService.genruntimeconfig.cache
 /Users/test/Desktop/vahe_task/vahe_task/LogService/obj/Debug/net9.0/ref/LogService.dll
 /Users/test/Desktop/vahe_task/vahe_task/LogService/bin/Debug/net9.0/appsettings.Docker.json
+/Users/test/Desktop/vahe_task/vahe_task/LogService/obj/Debug/net9.0/LogService.sourcelink.json

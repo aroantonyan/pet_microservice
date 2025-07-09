@@ -1,0 +1,75 @@
+2025-07-09 06:03:38.397 +00:00 [INF] Server 90c2d8df9e1b:1:f892be4e caught stopping signal...
+2025-07-09 06:03:38.412 +00:00 [INF] Server 90c2d8df9e1b:1:f892be4e All dispatchers stopped
+2025-07-09 06:03:38.414 +00:00 [INF] Application is shutting down...
+2025-07-09 06:03:38.415 +00:00 [INF] Server 90c2d8df9e1b:1:f892be4e successfully reported itself as stopped in 1.9019 ms
+2025-07-09 06:03:38.416 +00:00 [INF] Server 90c2d8df9e1b:1:f892be4e has been stopped in total 7.4907 ms
+2025-07-09 20:27:50.485 +00:00 [INF] Start installing Hangfire SQL objects...
+2025-07-09 20:27:50.661 +00:00 [INF] Hangfire SQL objects installed.
+2025-07-09 20:27:50.691 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2025-07-09 20:27:50.756 +00:00 [INF] Now listening on: http://[::]:8080
+2025-07-09 20:27:50.761 +00:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: host.docker.internal, DB: HangFireDb, Schema: hangfire'
+2025-07-09 20:27:50.761 +00:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-09 20:27:50.762 +00:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-09 20:27:50.762 +00:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-09 20:27:50.762 +00:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-09 20:27:50.762 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-09 20:27:50.775 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-09 20:27:50.776 +00:00 [INF] Hosting environment: Docker
+2025-07-09 20:27:50.776 +00:00 [INF] Content root path: /app
+2025-07-09 20:27:50.920 +00:00 [INF] Server 6f6678b8c1bf:1:170c1a9b successfully announced in 137.4158 ms
+2025-07-09 20:27:50.923 +00:00 [INF] Server 6f6678b8c1bf:1:170c1a9b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-09 20:27:50.946 +00:00 [INF] Server 6f6678b8c1bf:1:170c1a9b all the dispatchers started
+2025-07-09 20:30:36.430 +00:00 [INF] Server 6f6678b8c1bf:1:170c1a9b caught stopping signal...
+2025-07-09 20:30:36.488 +00:00 [INF] Application is shutting down...
+2025-07-09 20:30:36.515 +00:00 [INF] Server 6f6678b8c1bf:1:170c1a9b All dispatchers stopped
+2025-07-09 20:30:36.531 +00:00 [INF] Server 6f6678b8c1bf:1:170c1a9b successfully reported itself as stopped in 7.1995 ms
+2025-07-09 20:30:36.531 +00:00 [INF] Server 6f6678b8c1bf:1:170c1a9b has been stopped in total 82.7725 ms
+2025-07-09 20:30:38.335 +00:00 [INF] Start installing Hangfire SQL objects...
+2025-07-09 20:30:38.457 +00:00 [INF] Hangfire SQL objects installed.
+2025-07-09 20:30:38.483 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2025-07-09 20:30:38.548 +00:00 [INF] Now listening on: http://[::]:8080
+2025-07-09 20:30:38.553 +00:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: host.docker.internal, DB: HangFireDb, Schema: hangfire'
+2025-07-09 20:30:38.554 +00:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-09 20:30:38.554 +00:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-09 20:30:38.554 +00:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-09 20:30:38.555 +00:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-09 20:30:38.555 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-09 20:30:38.567 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-09 20:30:38.567 +00:00 [INF] Hosting environment: Docker
+2025-07-09 20:30:38.567 +00:00 [INF] Content root path: /app
+2025-07-09 20:30:38.708 +00:00 [INF] Server 1809091a08ef:1:57b1b815 successfully announced in 132.4775 ms
+2025-07-09 20:30:38.711 +00:00 [INF] Server 1809091a08ef:1:57b1b815 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-09 20:30:38.735 +00:00 [INF] Server 1809091a08ef:1:57b1b815 all the dispatchers started
+2025-07-09 20:33:07.261 +00:00 [INF] Server 1809091a08ef:1:57b1b815 caught stopping signal...
+2025-07-09 20:33:07.306 +00:00 [INF] Application is shutting down...
+2025-07-09 20:33:07.325 +00:00 [INF] Server 1809091a08ef:1:57b1b815 All dispatchers stopped
+2025-07-09 20:33:07.339 +00:00 [INF] Server 1809091a08ef:1:57b1b815 successfully reported itself as stopped in 7.059 ms
+2025-07-09 20:33:07.340 +00:00 [INF] Server 1809091a08ef:1:57b1b815 has been stopped in total 66.0002 ms
+2025-07-09 20:33:09.066 +00:00 [INF] Start installing Hangfire SQL objects...
+2025-07-09 20:33:09.193 +00:00 [INF] Hangfire SQL objects installed.
+2025-07-09 20:33:09.222 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2025-07-09 20:33:09.286 +00:00 [INF] Now listening on: http://[::]:8080
+2025-07-09 20:33:09.292 +00:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: host.docker.internal, DB: HangFireDb, Schema: hangfire'
+2025-07-09 20:33:09.292 +00:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-09 20:33:09.292 +00:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-09 20:33:09.293 +00:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-09 20:33:09.293 +00:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-09 20:33:09.293 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-09 20:33:09.309 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-09 20:33:09.310 +00:00 [INF] Hosting environment: Docker
+2025-07-09 20:33:09.310 +00:00 [INF] Content root path: /app
+2025-07-09 20:33:09.455 +00:00 [INF] Server d72126c47629:1:8d03e6a8 successfully announced in 137.3259 ms
+2025-07-09 20:33:09.459 +00:00 [INF] Server d72126c47629:1:8d03e6a8 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-09 20:33:09.483 +00:00 [INF] Server d72126c47629:1:8d03e6a8 all the dispatchers started

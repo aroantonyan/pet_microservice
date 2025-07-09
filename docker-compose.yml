@@ -1,6 +1,15 @@
 version: '3.9'
 
 services:
+  redis:
+    image: redis:7
+    command: [ "redis-server","--appendonly","yes" ]
+    ports:
+      - "6379:6379"       
+    volumes:
+      - redis-data:/data
+    networks: [ backend ]
+    
   price-service:
     platform: linux/amd64
     build:
@@ -23,6 +32,8 @@ services:
       - ASPNETCORE_URLS=http://+:8080
     ports:
       - "5003:8080"
+    volumes:
+      - ./logservice_logs:/app/logs
     networks: [ backend ]
 
   product-service:
@@ -40,3 +51,6 @@ services:
 
 networks:
   backend:
+
+volumes:
+  redis-data:
