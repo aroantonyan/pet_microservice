@@ -166,7 +166,9 @@ namespace PriceContracts {
         return CallInvoker.BlockingUnaryCall(__Method_DeletePrice, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::PriceContracts.DeletePriceReply> DeletePriceAsync(global::PriceContracts.DeletePriceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc.AsyncUnaryCall<DeletePriceReply> DeletePriceAsync(DeletePriceRequest request,
+        CancellationToken options, grpc.Metadata headers = null, DateTime? deadline = null,
+        CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return DeletePriceAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }

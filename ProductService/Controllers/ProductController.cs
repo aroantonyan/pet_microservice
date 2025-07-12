@@ -1,9 +1,8 @@
-// Controllers/ProductController.cs
-
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProductService.Applications.Products;
+using ProductService.Applications.Products.Commands;
 using ProductService.Dto;
 
 namespace ProductService.Controllers;
