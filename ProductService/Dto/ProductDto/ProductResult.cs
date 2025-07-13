@@ -1,6 +1,6 @@
-namespace ProductService.Dto;
+namespace ProductService.Dto.ProductDto;
 
-public class ProductResult<T>
+public class RequestResponseDto<T>
 {
     public T? Data { get; set; }
     public bool IsSuccess { get; set; }

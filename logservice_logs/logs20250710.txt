@@ -1,0 +1,30 @@
+2025-07-10 06:46:07.663 +00:00 [INF] Server d72126c47629:1:8d03e6a8 caught stopping signal...
+2025-07-10 06:46:07.765 +00:00 [INF] Application is shutting down...
+2025-07-10 06:46:07.780 +00:00 [INF] Server d72126c47629:1:8d03e6a8 All dispatchers stopped
+2025-07-10 06:46:07.796 +00:00 [INF] Server d72126c47629:1:8d03e6a8 successfully reported itself as stopped in 9.462 ms
+2025-07-10 06:46:07.797 +00:00 [INF] Server d72126c47629:1:8d03e6a8 has been stopped in total 58.5154 ms
+2025-07-10 06:46:10.203 +00:00 [INF] Start installing Hangfire SQL objects...
+2025-07-10 06:46:10.325 +00:00 [INF] Hangfire SQL objects installed.
+2025-07-10 06:46:10.351 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2025-07-10 06:46:10.414 +00:00 [INF] Now listening on: http://[::]:8080
+2025-07-10 06:46:10.419 +00:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: host.docker.internal, DB: HangFireDb, Schema: hangfire'
+2025-07-10 06:46:10.420 +00:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-10 06:46:10.420 +00:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-10 06:46:10.420 +00:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-10 06:46:10.420 +00:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-10 06:46:10.421 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-10 06:46:10.433 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-10 06:46:10.433 +00:00 [INF] Hosting environment: Docker
+2025-07-10 06:46:10.433 +00:00 [INF] Content root path: /app
+2025-07-10 06:46:10.575 +00:00 [INF] Server d72126c47629:1:b6e51b39 successfully announced in 133.3965 ms
+2025-07-10 06:46:10.578 +00:00 [INF] Server d72126c47629:1:b6e51b39 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-10 06:46:10.591 +00:00 [INF] Server d72126c47629:1:b6e51b39 all the dispatchers started
+2025-07-10 07:56:17.854 +00:00 [INF] Server d72126c47629:1:b6e51b39 caught stopping signal...
+2025-07-10 07:56:17.893 +00:00 [INF] Application is shutting down...
+2025-07-10 07:56:17.910 +00:00 [INF] Server d72126c47629:1:b6e51b39 All dispatchers stopped
+2025-07-10 07:56:17.928 +00:00 [INF] Server d72126c47629:1:b6e51b39 successfully reported itself as stopped in 8.1439 ms
+2025-07-10 07:56:17.928 +00:00 [INF] Server d72126c47629:1:b6e51b39 has been stopped in total 64.1352 ms

@@ -1,7 +1,7 @@
 using MediatR;
-using Microsoft.EntityFrameworkCore.Infrastructure;
 using ProductService.Dto;
+using ProductService.Dto.ProductDto;
 
-namespace ProductService.Applications.Products;
+namespace ProductService.Applications.Products.Queries;
 
-public record GetProductInfoQuery(string productName) : IRequest<ProductResult<ProductResultDto>>;
+public record GetProductInfoQuery(string ProductName) : IRequest<RequestResponseDto<RequestResponseDto>>;

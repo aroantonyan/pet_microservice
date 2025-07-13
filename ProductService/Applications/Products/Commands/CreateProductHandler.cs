@@ -3,14 +3,15 @@ using PriceContracts;
 using ProductService.Data;
 using ProductService.Delegates;
 using ProductService.Dto;
+using ProductService.Dto.ProductDto;
 using ProductService.Models;
 
 namespace ProductService.Applications.Products.Commands;
 
-public class CreateProductHandler(PriceService.PriceServiceClient priceService,
-    AppDbContext context) : IRequestHandler<CreateProductCommand, ProductResult<Product>>
+public class CreateProductHandler(PriceService.PriceServiceClient priceServiceClient,
+    AppDbContext context) : IRequestHandler<CreateProductCommand, RequestResponseDto<Product>>
 {
-    public async Task<ProductResult<Product>> Handle(CreateProductCommand command, CancellationToken cancellationToken)
+    public async Task<RequestResponseDto<Product>> Handle(CreateProductCommand command, CancellationToken cancellationToken)
     {
         var priceId = Guid.NewGuid();
         var product = new Product()
@@ -19,7 +20,7 @@ public class CreateProductHandler(PriceService.PriceServiceClient priceService,
             ProductName = command.Dto.ProductName,
             PriceId = priceId
         };
-        await priceService.CreatePriceAsync(new CreatePriceRequest
+        await priceServiceClient.CreatePriceAsync(new CreatePriceRequest
         {
             PriceId = priceId.ToString(),
             Value = command.Dto.ProductPrice,
@@ -31,7 +32,7 @@ public class CreateProductHandler(PriceService.PriceServiceClient priceService,
 
         LogDelegate.LogToConsole("A request to create a product was sent");
 
-        return new ProductResult<Product>() { IsSuccess = true };
+        return new RequestResponseDto<Product>() { IsSuccess = true };
         
     }
 }

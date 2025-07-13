@@ -1,6 +1,6 @@
 namespace ProductService.Helpers;
 
-public class ProductHelper
+public abstract class ProductHelper
 {
     public static double AdjustPriceIfDesirable(string productName, double productPrice)
     {

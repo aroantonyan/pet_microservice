@@ -1,0 +1,58 @@
+2025-07-13 09:13:18.393 +00:00 [INF] 1 servers were removed due to timeout
+2025-07-13 09:13:23.493 +00:00 [WRN] Server b624de560e67:1:9937efc1 was considered dead by other servers, restarting...
+2025-07-13 09:13:23.494 +00:00 [INF] Server b624de560e67:1:9937efc1 caught restart signal...
+2025-07-13 09:13:23.536 +00:00 [WRN] Server b624de560e67:1:9937efc1 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2025-07-13 09:13:23.564 +00:00 [INF] Server b624de560e67:1:9937efc1 successfully reported itself as stopped in 4.618 ms
+2025-07-13 09:13:23.564 +00:00 [INF] Server b624de560e67:1:9937efc1 has been stopped in total 63.7982 ms
+2025-07-13 09:13:23.626 +00:00 [INF] Server b624de560e67:1:cdea916d successfully announced in 60.5718 ms
+2025-07-13 09:13:23.628 +00:00 [INF] Server b624de560e67:1:cdea916d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-13 09:13:23.633 +00:00 [INF] Server b624de560e67:1:cdea916d all the dispatchers started
+2025-07-13 14:19:55.768 +00:00 [INF] 1 servers were removed due to timeout
+2025-07-13 14:19:56.104 +00:00 [WRN] Server b624de560e67:1:cdea916d was considered dead by other servers, restarting...
+2025-07-13 14:19:56.106 +00:00 [INF] Server b624de560e67:1:cdea916d caught restart signal...
+2025-07-13 14:19:56.139 +00:00 [WRN] Server b624de560e67:1:cdea916d stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2025-07-13 14:19:56.152 +00:00 [INF] Server b624de560e67:1:cdea916d successfully reported itself as stopped in 2.0322 ms
+2025-07-13 14:19:56.153 +00:00 [INF] Server b624de560e67:1:cdea916d has been stopped in total 43.7002 ms
+2025-07-13 14:19:56.156 +00:00 [INF] Server b624de560e67:1:cd09d4d0 successfully announced in 3.0646 ms
+2025-07-13 14:19:56.157 +00:00 [INF] Server b624de560e67:1:cd09d4d0 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-13 14:19:56.166 +00:00 [INF] Server b624de560e67:1:cd09d4d0 all the dispatchers started
+2025-07-13 17:19:25.638 +00:00 [INF] 1 servers were removed due to timeout
+2025-07-13 17:19:25.752 +00:00 [WRN] Server b624de560e67:1:cd09d4d0 was considered dead by other servers, restarting...
+2025-07-13 17:19:25.757 +00:00 [INF] Server b624de560e67:1:cd09d4d0 caught restart signal...
+2025-07-13 17:19:25.774 +00:00 [WRN] Server b624de560e67:1:cd09d4d0 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2025-07-13 17:19:25.777 +00:00 [INF] Server b624de560e67:1:cd09d4d0 successfully reported itself as stopped in 2.1181 ms
+2025-07-13 17:19:25.778 +00:00 [INF] Server b624de560e67:1:cd09d4d0 has been stopped in total 20.2166 ms
+2025-07-13 17:19:25.781 +00:00 [INF] Server b624de560e67:1:155a7a61 successfully announced in 3.0335 ms
+2025-07-13 17:19:25.783 +00:00 [INF] Server b624de560e67:1:155a7a61 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-13 17:19:25.795 +00:00 [INF] Server b624de560e67:1:155a7a61 all the dispatchers started
+2025-07-13 19:56:03.157 +00:00 [INF] 1 servers were removed due to timeout
+2025-07-13 20:17:52.565 +00:00 [INF] Server b624de560e67:1:155a7a61 caught stopping signal...
+2025-07-13 20:17:52.597 +00:00 [INF] Server b624de560e67:1:155a7a61 All dispatchers stopped
+2025-07-13 20:17:52.600 +00:00 [INF] Application is shutting down...
+2025-07-13 20:17:52.603 +00:00 [INF] Server b624de560e67:1:155a7a61 successfully reported itself as stopped in 1.957 ms
+2025-07-13 20:17:52.603 +00:00 [INF] Server b624de560e67:1:155a7a61 has been stopped in total 31.982 ms
+2025-07-13 20:17:55.936 +00:00 [INF] Start installing Hangfire SQL objects...
+2025-07-13 20:17:56.058 +00:00 [INF] Hangfire SQL objects installed.
+2025-07-13 20:17:56.085 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2025-07-13 20:17:56.147 +00:00 [INF] Now listening on: http://[::]:8080
+2025-07-13 20:17:56.152 +00:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: host.docker.internal, DB: HangFireDb, Schema: hangfire'
+2025-07-13 20:17:56.152 +00:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-13 20:17:56.152 +00:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-13 20:17:56.153 +00:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-13 20:17:56.153 +00:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-13 20:17:56.153 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-13 20:17:56.165 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-13 20:17:56.165 +00:00 [INF] Hosting environment: Docker
+2025-07-13 20:17:56.165 +00:00 [INF] Content root path: /app
+2025-07-13 20:17:56.312 +00:00 [INF] Server 2d482468c658:1:4acb859a successfully announced in 138.5261 ms
+2025-07-13 20:17:56.315 +00:00 [INF] Server 2d482468c658:1:4acb859a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-13 20:17:56.328 +00:00 [INF] Server 2d482468c658:1:4acb859a all the dispatchers started
+2025-07-13 20:20:47.601 +00:00 [INF] Server 2d482468c658:1:4acb859a caught stopping signal...
+2025-07-13 20:20:47.662 +00:00 [INF] Application is shutting down...
+2025-07-13 20:20:47.683 +00:00 [INF] Server 2d482468c658:1:4acb859a All dispatchers stopped
+2025-07-13 20:20:47.697 +00:00 [INF] Server 2d482468c658:1:4acb859a successfully reported itself as stopped in 6.2526 ms
+2025-07-13 20:20:47.697 +00:00 [INF] Server 2d482468c658:1:4acb859a has been stopped in total 76.8342 ms

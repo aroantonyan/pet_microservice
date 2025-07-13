@@ -1,0 +1,48 @@
+2025-07-12 21:11:52.003 +04:00 [INF] Start installing Hangfire SQL objects...
+2025-07-12 21:11:52.049 +04:00 [INF] Hangfire SQL objects installed.
+2025-07-12 21:11:52.064 +04:00 [INF] Now listening on: http://localhost:5085
+2025-07-12 21:11:52.066 +04:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangFireDb, Schema: hangfire'
+2025-07-12 21:11:52.067 +04:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-12 21:11:52.067 +04:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-12 21:11:52.067 +04:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-12 21:11:52.067 +04:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-12 21:11:52.067 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-12 21:11:52.072 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-12 21:11:52.072 +04:00 [INF] Hosting environment: Development
+2025-07-12 21:11:52.072 +04:00 [INF] Content root path: /Users/test/Desktop/vahe_task/vahe_task/LogService
+2025-07-12 21:11:52.138 +04:00 [INF] Server tests-macbook-pro:34709:f6611a96 successfully announced in 62,4821 ms
+2025-07-12 21:11:52.139 +04:00 [INF] Server tests-macbook-pro:34709:f6611a96 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-12 21:11:52.141 +04:00 [INF] Server tests-macbook-pro:34709:f6611a96 all the dispatchers started
+2025-07-12 21:11:58.395 +04:00 [INF] Server tests-macbook-pro:34709:f6611a96 caught stopping signal...
+2025-07-12 21:11:58.397 +04:00 [INF] Application is shutting down...
+2025-07-12 21:11:58.398 +04:00 [INF] Server tests-macbook-pro:34709:f6611a96 All dispatchers stopped
+2025-07-12 21:11:58.402 +04:00 [INF] Server tests-macbook-pro:34709:f6611a96 successfully reported itself as stopped in 2,1698 ms
+2025-07-12 21:11:58.402 +04:00 [INF] Server tests-macbook-pro:34709:f6611a96 has been stopped in total 5,0128 ms
+2025-07-12 21:32:17.351 +04:00 [INF] Start installing Hangfire SQL objects...
+2025-07-12 21:32:17.404 +04:00 [INF] Hangfire SQL objects installed.
+2025-07-12 21:32:17.423 +04:00 [INF] Now listening on: http://localhost:5085
+2025-07-12 21:32:17.425 +04:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangFireDb, Schema: hangfire'
+2025-07-12 21:32:17.425 +04:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-12 21:32:17.425 +04:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-12 21:32:17.425 +04:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-12 21:32:17.425 +04:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-12 21:32:17.425 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-12 21:32:17.431 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-12 21:32:17.431 +04:00 [INF] Hosting environment: Development
+2025-07-12 21:32:17.431 +04:00 [INF] Content root path: /Users/test/Desktop/vahe_task/vahe_task/LogService
+2025-07-12 21:32:17.494 +04:00 [INF] Server tests-macbook-pro:38908:4aa8a439 successfully announced in 59,5752 ms
+2025-07-12 21:32:17.496 +04:00 [INF] Server tests-macbook-pro:38908:4aa8a439 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-12 21:32:17.498 +04:00 [INF] Server tests-macbook-pro:38908:4aa8a439 all the dispatchers started
+2025-07-12 21:42:35.158 +04:00 [INF] Server tests-macbook-pro:38908:4aa8a439 caught stopping signal...
+2025-07-12 21:42:35.159 +04:00 [INF] Application is shutting down...
+2025-07-12 21:42:35.160 +04:00 [INF] Server tests-macbook-pro:38908:4aa8a439 All dispatchers stopped
+2025-07-12 21:42:35.162 +04:00 [INF] Server tests-macbook-pro:38908:4aa8a439 successfully reported itself as stopped in 1,801 ms
+2025-07-12 21:42:35.162 +04:00 [INF] Server tests-macbook-pro:38908:4aa8a439 has been stopped in total 4,0043 ms
