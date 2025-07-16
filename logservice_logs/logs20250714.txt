@@ -1,0 +1,25 @@
+2025-07-14 17:26:38.671 +00:00 [INF] Start installing Hangfire SQL objects...
+2025-07-14 17:26:38.791 +00:00 [INF] Hangfire SQL objects installed.
+2025-07-14 17:26:38.815 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2025-07-14 17:26:38.878 +00:00 [INF] Now listening on: http://[::]:8080
+2025-07-14 17:26:38.883 +00:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: host.docker.internal, DB: HangFireDb, Schema: hangfire'
+2025-07-14 17:26:38.884 +00:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-14 17:26:38.884 +00:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-14 17:26:38.884 +00:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-14 17:26:38.884 +00:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-14 17:26:38.884 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-14 17:26:38.897 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-14 17:26:38.897 +00:00 [INF] Hosting environment: Docker
+2025-07-14 17:26:38.897 +00:00 [INF] Content root path: /app
+2025-07-14 17:26:39.039 +00:00 [INF] Server 096adc44d990:1:79937350 successfully announced in 133.1279 ms
+2025-07-14 17:26:39.042 +00:00 [INF] Server 096adc44d990:1:79937350 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-14 17:26:39.054 +00:00 [INF] Server 096adc44d990:1:79937350 all the dispatchers started
+2025-07-14 17:30:21.995 +00:00 [INF] Server 096adc44d990:1:79937350 caught stopping signal...
+2025-07-14 17:30:22.035 +00:00 [INF] Application is shutting down...
+2025-07-14 17:30:22.057 +00:00 [INF] Server 096adc44d990:1:79937350 All dispatchers stopped
+2025-07-14 17:30:22.080 +00:00 [INF] Server 096adc44d990:1:79937350 successfully reported itself as stopped in 10.5438 ms
+2025-07-14 17:30:22.080 +00:00 [INF] Server 096adc44d990:1:79937350 has been stopped in total 73.9177 ms

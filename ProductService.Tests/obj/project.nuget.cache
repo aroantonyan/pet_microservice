@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "IFMoEe20F/I=",
+  "dgSpecHash": "x6eEm5r5jgw=",
   "success": true,
   "projectFilePath": "/Users/test/Desktop/vahe_task/vahe_task/ProductService.Tests/ProductService.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/test/.nuget/packages/coverlet.collector/6.0.2/coverlet.collector.6.0.2.nupkg.sha512",
+    "/Users/test/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
+    "/Users/test/.nuget/packages/fluentvalidation.aspnetcore/11.3.1/fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "/Users/test/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.11.0/fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "/Users/test/.nuget/packages/google.protobuf/3.31.1/google.protobuf.3.31.1.nupkg.sha512",
     "/Users/test/.nuget/packages/grpc.core.api/2.71.0/grpc.core.api.2.71.0.nupkg.sha512",
     "/Users/test/.nuget/packages/grpc.net.client/2.71.0/grpc.net.client.2.71.0.nupkg.sha512",

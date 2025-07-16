@@ -2,7 +2,6 @@ using MediatR;
 using PriceContracts;
 using ProductService.Data;
 using ProductService.Delegates;
-using ProductService.Dto;
 using ProductService.Dto.ProductDto;
 using ProductService.Models;
 

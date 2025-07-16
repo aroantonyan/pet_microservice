@@ -1,5 +1,6 @@
-// Program.cs ─────────────────────────────────────────────
 using System.Text;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -9,7 +10,9 @@ using PriceContracts;
 using ProductService.Data;
 using ProductService.Events;
 using ProductService.Extensions;
+using ProductService.Models;
 using ProductService.Services;
+using ProductService.Services.TokenGenerator;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,47 +34,49 @@ builder.Services.AddHttpClient<LogSenderService>((sp, c) =>
 builder.Services.AddDbContext<AppDbContext>(o =>
     o.UseNpgsql(builder.Configuration.GetConnectionString("ProductDb")));
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>(opt =>
-{
-    opt.Password.RequireDigit           = false;
-    opt.Password.RequireUppercase       = false;
-    opt.Password.RequireNonAlphanumeric = false;
-    opt.Password.RequiredLength         = 6;
-})
-.AddEntityFrameworkStores<AppDbContext>();
+builder.Services.AddIdentity<User, IdentityRole>(opt =>
+    {
+        opt.Password.RequireDigit = false;
+        opt.Password.RequireUppercase = false;
+        opt.Password.RequireNonAlphanumeric = false;
+        opt.Password.RequiredLength = 6;
+    })
+    .AddEntityFrameworkStores<AppDbContext>();
 
 builder.Services.AddMediatR(typeof(Program));
 builder.Services.AddSingleton<ProductEventSubscriber>();
-
-
-builder.Services.AddScoped<JwtTokenGenerator>();
-
+builder.Services.AddScoped<AccessTokenGenerator>();
+builder.Services.AddScoped<RefreshTokenService>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(o =>
     {
         o.TokenValidationParameters = new TokenValidationParameters
         {
-            ValidateIssuer           = true,
-            ValidateAudience         = true,
-            ValidateLifetime         = true,
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            ValidIssuer              = jwt["Issuer"],
-            ValidAudience            = jwt["Audience"],
-            IssuerSigningKey         = key
+            ValidIssuer = jwt["Issuer"],
+            ValidAudience = jwt["Audience"],
+            IssuerSigningKey = key
         };
     });
 builder.Services.AddAuthorization();
 
 builder.Services.AddControllers();
-builder.Services.AddSwaggerWithJwt();  
+
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<Program>();
+
+builder.Services.AddSwaggerWithJwt();
 
 var app = builder.Build();
 
 
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwaggerWithUI();             
+    app.UseSwaggerWithUI();
 }
 
 app.UseHttpsRedirection();

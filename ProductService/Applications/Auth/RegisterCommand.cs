@@ -1,5 +1,4 @@
 using MediatR;
-using ProductService.Dto;
 using ProductService.Dto.AuthDto;
 using ProductService.Dto.ProductDto;
 

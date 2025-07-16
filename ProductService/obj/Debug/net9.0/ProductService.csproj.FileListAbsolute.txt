@@ -158,3 +158,6 @@
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.pdb
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ProductService.genruntimeconfig.cache
 /Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/Debug/net9.0/ref/ProductService.dll
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/FluentValidation.dll
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/FluentValidation.AspNetCore.dll
+/Users/test/Desktop/vahe_task/vahe_task/ProductService/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll

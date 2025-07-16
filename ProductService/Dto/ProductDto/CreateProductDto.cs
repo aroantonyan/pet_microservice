@@ -1,4 +1,4 @@
-namespace ProductService.Dto;
+namespace ProductService.Dto.ProductDto;
 
 public class CreateProductDto
 {

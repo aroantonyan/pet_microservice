@@ -4,37 +4,37 @@ using Microsoft.AspNetCore.Mvc;
 using ProductService.Applications.Products.Commands;
 using ProductService.Applications.Products.Queries;
 using ProductService.Dto;
+using ProductService.Dto.ProductDto;
 
 namespace ProductService.Controllers;
 
 [ApiExplorerSettings(GroupName = "v1")]
 [Authorize(AuthenticationSchemes = "Bearer")]
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/products")]
 public class ProductController(IMediator mediator) : ControllerBase
 {
-    [HttpGet]
-    public async Task<IActionResult> GetProductInfo([FromQuery] string productName)
+    [HttpGet("{productName}")]
+    public async Task<IActionResult> GetProductInfo(string productName)
     {
         var result = await mediator.Send(new GetProductInfoQuery(productName));
         if (result.Data == null) return NotFound(result.ErrorMessage);
         return Ok(result.Data);
     }
-
-
+    
     [HttpPost]
     public async Task<IActionResult> CreateProduct([FromBody] CreateProductDto product)
     {
         var result = await mediator.Send(new CreateProductCommand(product));
-        if (result.IsSuccess) return Ok("product is created");
-        return BadRequest("product is not created");
+        if (result.IsSuccess) return Ok(new { message = "product is created" });
+        return BadRequest(new { message = "product is not created" });
     }
 
-    [HttpDelete]
-    public async Task<IActionResult> DeleteProduct([FromQuery] string productName)
+    [HttpDelete("{productName}")]
+    public async Task<IActionResult> DeleteProduct(string productName)
     {
         var result = await mediator.Send(new DeleteProductCommand(productName));
-        if (result.IsSuccess) return Ok("product is deleted");
-        return BadRequest("product is not deleted");
+        if (result.IsSuccess) return Ok(new { message = "product is deleted" });
+        return BadRequest(new { message = "product is not deleted" });
     }
 }

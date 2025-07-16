@@ -4,11 +4,11 @@ using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 
-namespace ProductService.Services;
+namespace ProductService.Services.TokenGenerator;
 
-public sealed class JwtTokenGenerator(IConfiguration config)
+public sealed class AccessTokenGenerator(IConfiguration config)
 {
-    public string GenerateToken(IdentityUser user)
+    public string GenerateAccessToken(IdentityUser user)
     {
         var jwt = config.GetSection("Jwt");
 
@@ -19,7 +19,7 @@ public sealed class JwtTokenGenerator(IConfiguration config)
 
         var token = new JwtSecurityToken(
             issuer:  jwt["Issuer"],
-            audience: jwt["Audience"],
+            audience: jwt["Audience"],  
             claims:  [ new Claim(ClaimTypes.NameIdentifier, user.Id) ],
             expires: expiresIn,
             signingCredentials: creds

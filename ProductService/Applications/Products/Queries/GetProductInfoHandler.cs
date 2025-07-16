@@ -1,5 +1,4 @@
 using System.Globalization;
-using Grpc.Core;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
@@ -56,7 +55,7 @@ public class GetProductInfoHandler(
                 new DistributedCacheEntryOptions
                 {
                     AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
-                });
+                },cancellationToken);
             return new RequestResponseDto<RequestResponseDto>
             {
                 IsSuccess = true,
