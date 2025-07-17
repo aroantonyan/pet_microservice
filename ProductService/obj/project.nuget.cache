@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v0y4tiDnVhY=",
+  "dgSpecHash": "gREAypV0pOY=",
   "success": true,
-  "projectFilePath": "/Users/test/Desktop/vahe_task/vahe_task/ProductService/ProductService.csproj",
+  "projectFilePath": "/Users/test/Desktop/pet_microservice/ProductService/ProductService.csproj",
   "expectedPackageFiles": [
     "/Users/test/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
     "/Users/test/.nuget/packages/fluentvalidation.aspnetcore/11.3.1/fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",

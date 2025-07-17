@@ -1,5 +1,6 @@
 using System.Text;
 using System.Text.Json;
+using ProductService.Dto;
 
 namespace ProductService.Services;
 
@@ -7,9 +8,9 @@ public class LogSenderService(HttpClient client)
 {
     private const string Endpoint = "/log/ReceiveLog";   
 
-    public async Task SendLogAsync(string message)
+    public async Task SendLogAsync(LogDto log)
     {
-        var payload  = JsonSerializer.Serialize(new { Message = message });
+        var payload  = JsonSerializer.Serialize(log);
         using var content = new StringContent(payload, Encoding.UTF8, "application/json");
 
         var resp = await client.PostAsync(Endpoint, content);

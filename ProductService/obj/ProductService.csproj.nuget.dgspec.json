@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/test/Desktop/vahe_task/vahe_task/ProductService/ProductService.csproj": {}
+    "/Users/test/Desktop/pet_microservice/ProductService/ProductService.csproj": {}
   },
   "projects": {
-    "/Users/test/Desktop/vahe_task/vahe_task/ProductService/ProductService.csproj": {
+    "/Users/test/Desktop/pet_microservice/ProductService/ProductService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/test/Desktop/vahe_task/vahe_task/ProductService/ProductService.csproj",
+        "projectUniqueName": "/Users/test/Desktop/pet_microservice/ProductService/ProductService.csproj",
         "projectName": "ProductService",
-        "projectPath": "/Users/test/Desktop/vahe_task/vahe_task/ProductService/ProductService.csproj",
+        "projectPath": "/Users/test/Desktop/pet_microservice/ProductService/ProductService.csproj",
         "packagesPath": "/Users/test/.nuget/packages/",
-        "outputPath": "/Users/test/Desktop/vahe_task/vahe_task/ProductService/obj/",
+        "outputPath": "/Users/test/Desktop/pet_microservice/ProductService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/test/.nuget/NuGet/NuGet.Config"

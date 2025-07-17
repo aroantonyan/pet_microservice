@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZwxPTB6I+q8=",
+  "dgSpecHash": "oVx4XoIF09I=",
   "success": true,
-  "projectFilePath": "/Users/test/Desktop/vahe_task/vahe_task/PriceService/PriceService.csproj",
+  "projectFilePath": "/Users/test/Desktop/pet_microservice/PriceService/PriceService.csproj",
   "expectedPackageFiles": [
     "/Users/test/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
     "/Users/test/.nuget/packages/google.protobuf/3.30.2/google.protobuf.3.30.2.nupkg.sha512",

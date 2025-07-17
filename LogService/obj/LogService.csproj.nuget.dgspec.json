@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/test/Desktop/vahe_task/vahe_task/LogService/LogService.csproj": {}
+    "/Users/test/Desktop/pet_microservice/LogService/LogService.csproj": {}
   },
   "projects": {
-    "/Users/test/Desktop/vahe_task/vahe_task/LogService/LogService.csproj": {
+    "/Users/test/Desktop/pet_microservice/LogService/LogService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/test/Desktop/vahe_task/vahe_task/LogService/LogService.csproj",
+        "projectUniqueName": "/Users/test/Desktop/pet_microservice/LogService/LogService.csproj",
         "projectName": "LogService",
-        "projectPath": "/Users/test/Desktop/vahe_task/vahe_task/LogService/LogService.csproj",
+        "projectPath": "/Users/test/Desktop/pet_microservice/LogService/LogService.csproj",
         "packagesPath": "/Users/test/.nuget/packages/",
-        "outputPath": "/Users/test/Desktop/vahe_task/vahe_task/LogService/obj/",
+        "outputPath": "/Users/test/Desktop/pet_microservice/LogService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/test/.nuget/NuGet/NuGet.Config"

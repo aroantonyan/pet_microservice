@@ -10,6 +10,7 @@ using PriceContracts;
 using ProductService.Data;
 using ProductService.Events;
 using ProductService.Extensions;
+using ProductService.Middlewares;
 using ProductService.Models;
 using ProductService.Services;
 using ProductService.Services.TokenGenerator;
@@ -80,6 +81,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseMiddleware<ExceptionMiddleware>();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();

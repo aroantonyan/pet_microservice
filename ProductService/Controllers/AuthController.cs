@@ -1,13 +1,15 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using ProductService.Applications.Auth;
+using ProductService.Dto;
 using ProductService.Dto.AuthDto;
+using ProductService.Services;
 
 namespace ProductService.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class AuthController(IMediator mediator) : ControllerBase
+public class AuthController(IMediator mediator, LogSenderService logSender) : ControllerBase
 {
     [HttpPost("Register")]
     public async Task<IActionResult> Register(RegisterDto registerDto)
@@ -22,6 +24,12 @@ public class AuthController(IMediator mediator) : ControllerBase
     {
         var result = await mediator.Send(new LoginCommand(loginDto));
         if (!result.IsSuccess) return BadRequest(result.ErrorMessage);
+        await logSender.SendLogAsync(new LogDto()
+        {
+            Exception = "test",
+            Message = "test",
+            Path = "test"
+        });
         return Ok(result.Data);
     }
 

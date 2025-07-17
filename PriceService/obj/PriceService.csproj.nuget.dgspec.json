@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/test/Desktop/vahe_task/vahe_task/PriceService/PriceService.csproj": {}
+    "/Users/test/Desktop/pet_microservice/PriceService/PriceService.csproj": {}
   },
   "projects": {
-    "/Users/test/Desktop/vahe_task/vahe_task/PriceService/PriceService.csproj": {
+    "/Users/test/Desktop/pet_microservice/PriceService/PriceService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/test/Desktop/vahe_task/vahe_task/PriceService/PriceService.csproj",
+        "projectUniqueName": "/Users/test/Desktop/pet_microservice/PriceService/PriceService.csproj",
         "projectName": "PriceService",
-        "projectPath": "/Users/test/Desktop/vahe_task/vahe_task/PriceService/PriceService.csproj",
+        "projectPath": "/Users/test/Desktop/pet_microservice/PriceService/PriceService.csproj",
         "packagesPath": "/Users/test/.nuget/packages/",
-        "outputPath": "/Users/test/Desktop/vahe_task/vahe_task/PriceService/obj/",
+        "outputPath": "/Users/test/Desktop/pet_microservice/PriceService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/test/.nuget/NuGet/NuGet.Config"
