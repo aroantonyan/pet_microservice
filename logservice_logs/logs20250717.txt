@@ -23,3 +23,37 @@
 2025-07-17 14:11:39.517 +00:00 [INF] Server e706fde7a88d:1:e14f59b4 All dispatchers stopped
 2025-07-17 14:11:39.543 +00:00 [INF] Server e706fde7a88d:1:e14f59b4 successfully reported itself as stopped in 20.8962 ms
 2025-07-17 14:11:39.544 +00:00 [INF] Server e706fde7a88d:1:e14f59b4 has been stopped in total 81.6494 ms
+2025-07-17 15:27:12.863 +00:00 [INF] Start installing Hangfire SQL objects...
+2025-07-17 15:27:12.994 +00:00 [INF] Hangfire SQL objects installed.
+2025-07-17 15:27:13.055 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2025-07-17 15:27:13.096 +00:00 [INF] Now listening on: http://[::]:8080
+2025-07-17 15:27:13.101 +00:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: host.docker.internal, DB: HangFireDb, Schema: hangfire'
+2025-07-17 15:27:13.101 +00:00 [INF] Using the following options for PostgreSQL job storage:
+2025-07-17 15:27:13.101 +00:00 [INF]     Queue poll interval: 00:00:15.
+2025-07-17 15:27:13.101 +00:00 [INF]     Invisibility timeout: 00:30:00.
+2025-07-17 15:27:13.102 +00:00 [INF]     Use sliding invisibility timeout: False.
+2025-07-17 15:27:13.102 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-07-17 15:27:13.115 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-17 15:27:13.117 +00:00 [INF] Hosting environment: Docker
+2025-07-17 15:27:13.117 +00:00 [INF] Content root path: /app
+2025-07-17 15:27:13.252 +00:00 [INF] Server 54704cabb7b2:1:14489c65 successfully announced in 129.1772 ms
+2025-07-17 15:27:13.255 +00:00 [INF] Server 54704cabb7b2:1:14489c65 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-07-17 15:27:13.267 +00:00 [INF] Server 54704cabb7b2:1:14489c65 all the dispatchers started
+2025-07-17 15:28:29.736 +00:00 [INF] Request starting HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - application/json; charset=utf-8 136
+2025-07-17 15:28:29.752 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-07-17 15:28:29.774 +00:00 [INF] Executing endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-17 15:28:29.797 +00:00 [INF] Route matched with {action = "ReceiveLog", controller = "Log"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveLog(LogService.Dto.LogDto) on controller LogService.Controllers.LogController (LogService).
+2025-07-17 15:28:30.045 +00:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-07-17 15:28:30.051 +00:00 [INF] Executed action LogService.Controllers.LogController.ReceiveLog (LogService) in 248.7668ms
+2025-07-17 15:28:30.052 +00:00 [INF] Executed endpoint 'LogService.Controllers.LogController.ReceiveLog (LogService)'
+2025-07-17 15:28:30.059 +00:00 [INF] Request finished HTTP/1.1 POST http://log-service:8080/log/ReceiveLog - 200 0 null 324.2501ms
+2025-07-17 15:28:30.130 +00:00 [INF] test
+2025-07-17 15:29:20.527 +00:00 [INF] Server 54704cabb7b2:1:14489c65 caught stopping signal...
+2025-07-17 15:29:20.556 +00:00 [INF] Application is shutting down...
+2025-07-17 15:29:20.579 +00:00 [INF] Server 54704cabb7b2:1:14489c65 All dispatchers stopped
+2025-07-17 15:29:20.606 +00:00 [INF] Server 54704cabb7b2:1:14489c65 successfully reported itself as stopped in 21.0081 ms
+2025-07-17 15:29:20.607 +00:00 [INF] Server 54704cabb7b2:1:14489c65 has been stopped in total 73.5599 ms

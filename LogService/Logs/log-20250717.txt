@@ -1,0 +1,11 @@
+[2025-07-17 19:53:59.352 +04:00 INF] Now listening on: http://localhost:5085 { EventId: { Id: 14, Name: "ListeningOnAddress" }, SourceContext: "Microsoft.Hosting.Lifetime" }
+[2025-07-17 19:53:59.387 +04:00 INF] Application started. Press Ctrl+C to shut down. { SourceContext: "Microsoft.Hosting.Lifetime" }
+[2025-07-17 19:53:59.387 +04:00 INF] Hosting environment: Development { SourceContext: "Microsoft.Hosting.Lifetime" }
+[2025-07-17 19:53:59.387 +04:00 INF] Content root path: /Users/test/Desktop/pet_microservice/LogService { SourceContext: "Microsoft.Hosting.Lifetime" }
+[2025-07-17 19:54:08.588 +04:00 WRN] Failed to determine the https port for redirect. { EventId: { Id: 3, Name: "FailedToDeterminePort" }, SourceContext: "Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware", SpanId: "a0b772e15833681c", TraceId: "f870794ab7030aee0522625b2b8705ad", ParentId: "420eb6621fc9404a", ConnectionId: "0HNE598L632L9", RequestId: "0HNE598L632L9:00000001", RequestPath: "/log/ReceiveLog" }
+[2025-07-17 19:54:08.715 +04:00 INF] Log received: Message='zzzzzzzzzz', Level='zzzzzzz', Source='null', Path='zzzzzzzzzzz', TraceId='zzzzzz', Exception='zzzzzzzzzz' {  }
+[2025-07-17 19:54:25.989 +04:00 INF] Log received: Message='zzzzzzzzzz', Level='zzzzzzz', Source='null', Path='zzzzzzzzzzz', TraceId='zzzzzz', Exception='zzzzzzzzzz' {  }
+[2025-07-17 19:54:26.525 +04:00 INF] Log received: Message='zzzzzzzzzz', Level='zzzzzzz', Source='null', Path='zzzzzzzzzzz', TraceId='zzzzzz', Exception='zzzzzzzzzz' {  }
+[2025-07-17 19:54:27.041 +04:00 INF] Log received: Message='zzzzzzzzzz', Level='zzzzzzz', Source='null', Path='zzzzzzzzzzz', TraceId='zzzzzz', Exception='zzzzzzzzzz' {  }
+[2025-07-17 19:54:29.307 +04:00 INF] Log received: Message='zzzzzzzzzz', Level='zzzzzzz', Source='null', Path='zzzzzzzzzzz', TraceId='zzzzzz', Exception='zzzzzzzzzz' {  }
+[2025-07-17 19:54:37.889 +04:00 INF] Application is shutting down... { SourceContext: "Microsoft.Hosting.Lifetime" }

@@ -8,12 +8,15 @@ public class LoggingService : ILogInterface
 {
     public Task LogAsync(LogDto log)
     {
-        Log.Logger.ForContext("Source", log.Source)
-            .ForContext("Path", log.Path)
-            .ForContext("TraceId", log.TraceId)
-            .ForContext("Level", log.Level)
-            .ForContext("Exception", log.Exception)
-            .Information("{Message}", log.Message);
+        Log.Logger.Information(
+            "Log received: Message='{Message}', Level='{Level}', Source='{Source}', Path='{Path}', TraceId='{TraceId}', Exception='{Exception}'",
+            log.Message,
+            log.Level,
+            log.Source,
+            log.Path,
+            log.TraceId,
+            log.Exception
+        );
 
         return Task.CompletedTask;
     }

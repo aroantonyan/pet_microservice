@@ -1,18 +1,12 @@
 using Hangfire;
 using Hangfire.PostgreSql;
 using LogService.Interfaces;
+using LogService.Logging;
 using LogService.Services;
-using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-Log.Logger = new LoggerConfiguration()
-    .WriteTo.File("Logs/logs.txt", rollingInterval: RollingInterval.Day)
-    .CreateLogger();
-
-builder.Logging.ClearProviders();
-builder.Logging.AddConsole();
-builder.Logging.AddSerilog();
+LoggingConfiguration.ConfigureLogger(builder);
 
 var cs = builder.Configuration.GetConnectionString("HangfireConnection");
 builder.Services.AddHangfire(cfg => cfg.UsePostgreSqlStorage(cs));
@@ -29,6 +23,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllers();
-app.UseHangfireDashboard(); 
+app.UseHangfireDashboard();
 
 app.Run();

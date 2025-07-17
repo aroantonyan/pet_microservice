@@ -24,12 +24,6 @@ public class AuthController(IMediator mediator, LogSenderService logSender) : Co
     {
         var result = await mediator.Send(new LoginCommand(loginDto));
         if (!result.IsSuccess) return BadRequest(result.ErrorMessage);
-        await logSender.SendLogAsync(new LogDto()
-        {
-            Exception = "test",
-            Message = "test",
-            Path = "test"
-        });
         return Ok(result.Data);
     }
 

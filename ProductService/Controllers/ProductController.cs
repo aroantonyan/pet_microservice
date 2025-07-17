@@ -5,6 +5,7 @@ using ProductService.Applications.Products.Commands;
 using ProductService.Applications.Products.Queries;
 using ProductService.Dto;
 using ProductService.Dto.ProductDto;
+using ProductService.Services;
 
 namespace ProductService.Controllers;
 
@@ -12,7 +13,7 @@ namespace ProductService.Controllers;
 [Authorize(AuthenticationSchemes = "Bearer")]
 [ApiController]
 [Route("api/products")]
-public class ProductController(IMediator mediator) : ControllerBase
+public class ProductController(IMediator mediator, LogSenderService log) : ControllerBase
 {
     [HttpGet("{productName}")]
     public async Task<IActionResult> GetProductInfo(string productName)
