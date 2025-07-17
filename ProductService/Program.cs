@@ -12,6 +12,7 @@ using ProductService.Events;
 using ProductService.Extensions;
 using ProductService.Middlewares;
 using ProductService.Models;
+using ProductService.OpenTelemetry;
 using ProductService.Services;
 using ProductService.Services.TokenGenerator;
 
@@ -21,6 +22,7 @@ var builder = WebApplication.CreateBuilder(args);
 var jwt = builder.Configuration.GetSection("Jwt");
 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwt["Key"]!));
 
+builder.Services.AddOpenTelemetryServices(builder.Configuration);
 
 builder.Services.AddStackExchangeRedisCache(o =>
     o.Configuration = builder.Configuration.GetConnectionString("Redis"));
@@ -79,7 +81,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwaggerWithUI();
 }
-
+app.UseOpenTelemetryPrometheusScrapingEndpoint();
 app.UseHttpsRedirection();
 app.UseMiddleware<ExceptionMiddleware>();
 app.UseRouting();
